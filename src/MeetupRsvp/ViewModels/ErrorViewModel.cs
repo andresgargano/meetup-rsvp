@@ -1,6 +1,6 @@
 using System;
 
-namespace MeetupRsvp.Models
+namespace MeetupRsvp.ViewModels
 {
     public class ErrorViewModel
     {
