@@ -18,12 +18,12 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\MeetupRsvp.Data\MeetupRsvp.Data.csproj" />
+    <Folder Include="wwwroot\lib\vendor\" />
   </ItemGroup>
 
 
   <ItemGroup>
-    <Folder Include="wwwroot\lib\vendor\" />
+    <ProjectReference Include="..\MeetupRsvp.Core\MeetupRsvp.Core.csproj" />
   </ItemGroup>
 
 </Project>

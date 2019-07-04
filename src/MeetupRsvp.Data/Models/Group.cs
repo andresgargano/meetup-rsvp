@@ -25,13 +25,4 @@ namespace MeetupRsvp.Data.Models
 
         public List<Topic> Topics { get; set; }
     }
-
-    public class Topic
-    {
-        public long Id { get; set; }
-
-        public string Name { get; set; }
-
-        public string UrlKey { get; set; }
-    }
 }

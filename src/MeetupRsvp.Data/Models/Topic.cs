@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 
 namespace MeetupRsvp.Data.Models
 {
-    public class Member
+    public class Topic
     {
         public long Id { get; set; }
 
         public string Name { get; set; }
 
-        public string PhotoUrl { get; set; }
+        public string UrlKey { get; set; }
     }
 }
